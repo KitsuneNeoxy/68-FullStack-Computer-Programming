@@ -2,20 +2,20 @@ const a = 5;
 const b = 10;
 
 // Regular Function
-const add = function(a, b) {
-    return a + b;
+const add = function(x, y) {
+    return x + y;
 };
 
 // Arrow Function
-const addArrow = (a, b) => a + b;
+const addArrow = (x, y) => x + y;
 
 //Reading the Arrow Example
-const subtrac = (a , b) => {
-    const result = a - b ;
+const subtrac = (x , y) => {
+    const result = x - y;
     return result;
 };
 
 
 console.log (`Addition : ${add (a,b)}`);
 console.log (`Addition using Arrow Function : ${addArrow (a,b)}`);
-console.log (`Subtraction using Arrow Function : ${subtrac (a,b)}`);
+console.log (`Subtraction using Arrow Function : ${subtrac (b , a)}`);
