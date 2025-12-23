@@ -1,0 +1,1 @@
+Array const guest = ['Alice', 'Bob', 'Charlie','David'];
